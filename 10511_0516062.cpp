@@ -2,9 +2,9 @@
 
 using namespace std;
 
-int f[1000001],g[1000001];
-int h[1000001],hcount;
-int isUsed[1000001];
+int f[101],g[101];
+int h[101],hcount;
+int isUsed[101];
 int isTrue;
 int kinds;
 
@@ -24,9 +24,6 @@ int main()
 	{
 		for(t=0;t<=n;t++)
 		{
-			f[t]=0;
-			g[t]=0;
-			h[t]=0;
 			isUsed[t]=0;
 		}
 		isTrue=1;

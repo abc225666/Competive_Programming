@@ -1,0 +1,7 @@
+#exe file
+*.out
+*.exe
+#ds store
+*.DS_Store
+#object
+*.o
