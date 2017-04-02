@@ -31,7 +31,8 @@ int main()
 		symbol.push('(');
 		strtok(input,"\n");
 		int t;
-		for(t=0;t<strlen(input);t++)
+
+		for(t=0;input[t];t++)
 		{
 			if(input[t]>='0' && input[t]<='9')
 			{
